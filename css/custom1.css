@@ -1,0 +1,69 @@
+
+
+/*Uncomment the follwoing lines to move facets to the left*/
+
+/*
+prm-search > md-content.md-primoExplore-theme .main {
+    display: -webkit-flex; !* Safari *!
+    -webkit-flex-flow: row-reverse wrap; !* Safari 6.1+ *!
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+}
+.screen-gt-sm .sidebar{
+    webkit-flex: 0 0 15%;
+    flex: 0 0 15%;
+}
+
+*/
+
+
+.prm-primary-color {
+	color: #00a09a;
+}
+.prm-secondary-color {
+	color: #d3d3d3;
+}
+/* header search bar - light grey */
+.prm-primary-bg, prm-journals-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark::after {
+    color: #fff;
+    background-color: #d3d3d3;
+}
+/* header top - jade */
+.prm-primary-bg.prm-hue1, prm-journals-search-bar.prm-hue1, prm-search-bar.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark::after, prm-topbar .top-nav-bar {
+    background-color: #00a09a;
+}
+/* search word hightlight - light grey */
+.text-highlight, mark {
+    box-shadow: inset 0 -.3em 0 0 #yellow;
+}
+/* facet values */
+.section-content .md-chips .md-chip .md-chip-content {
+    max-width: calc(100% - 2em);
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: .35em;
+    padding-right: .35em;
+    border-radius: 3px;
+    color: #00a09a;
+}
+/* library logo bigger */
+prm-logo .product-logo {
+    height: 100%;
+    padding: 0em;
+}
+/* brief result, title */
+prm-brief-result .item-title span {
+    color: #00a09a;
+}
+/* alert bar, background - dark gray */
+.bar.alert-bar, .classic-input .search-scope, .prm-alert-bg {
+    background-color: darkgray;
+}
+.bar.alert-bar, .classic-input .search-scope, .prm-alert {
+    color: white;
+}
+/* links */
+.md-button.arrow-link-button .button-content:focus, .md-button.arrow-link-button .button-content:hover, .md-button.arrow-link-button .hover.button-content, .md-button.arrow-link-button:focus .button-content, .md-button.arrow-link-button:hover .button-content, .prm-links-hover.prm-hue-1, .recommendations-title.hover > span > span, .recommendations-title:hover > span > span, a.hover, a:focus, a:hover, prm-citation-trails-item.active-item md-card > .md-button:focus .item-title span, prm-citation-trails-item.active-item md-card > .md-button:hover .item-title span {
+    color: #00a09a;
+}
