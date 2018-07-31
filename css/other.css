@@ -1,4 +1,3 @@
-﻿
 
 /*Uncomment the following lines to move facets to the left*/
 
@@ -128,9 +127,9 @@ prm-user-area md-fab-toolbar.md-left .md-toolbar-tools, prm-user-area md-fab-too
 prm-user-area md-fab-toolbar ._md-fab-action-item, prm-user-area md-fab-toolbar .md-fab-action-item {
     background-color: #00b2aa; /* zhb grün */
 }
-/*.bar prm-authentication .md-button, .md-button.button-as-link {
+.bar prm-authentication .md-button, .md-button.button-as-link {
     color: white;
-}*/
+}
 
 /* header - hover */
 .hoverable-over-dark:focus:not([disabled]), .hoverable-over-dark:hover:not([disabled]), .md-button.button-over-dark:focus:not([disabled]), .md-button.button-over-dark:hover:not([disabled]), prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-select-dummy:focus:not([disabled]), prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-select-dummy:hover:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button:focus:not([disabled]), prm-main-menu[menu-type=full] .md-button:hover:not([disabled]), prm-main-menu[menu-type=full] .md-button md-select:focus:not([disabled]), prm-main-menu[menu-type=full] .md-button md-select:hover:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-select-dummy:focus:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-select-dummy:hover:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item:focus:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item:hover:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item md-select:focus:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item md-select:hover:not([disabled]):focus, prm-main-menu[menu-type=full] md-card:focus:not([disabled]), prm-main-menu[menu-type=full] md-card:hover:not([disabled]), prm-topbar .md-button:focus:not([disabled]), prm-topbar .md-button:hover:not([disabled]), prm-user-area .md-button.user-menu-button:focus:not([disabled]), prm-user-area .md-button.user-menu-button:hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) {
@@ -146,38 +145,11 @@ prm-user-area md-fab-toolbar ._md-fab-action-item, prm-user-area md-fab-toolbar 
 /* menu - mobile */
 /* md-dialog.light-on-dark-dialog {
     background-color: rgba(240,245,245,0.05); */
-md-card-title {
-    color: black;
-    background-color: #f4f6f6;
-}
-.light-on-dark-dialog .md-button {
-    color: black;
-}
-md-card.transparent-card.md-ink-ripple._md.md-primoExplore-theme.flex-gt-xs-45.flex-gt-sm-30.flex-100 {
-    background-color: #d3d3d3 !important;
-}
-.__xs prm-main-menu[menu-type=full] md-card-title {
-    padding: .5em 1em;
-    background-color: #d3d3d3 !important;
-}
-/* change language "earth" icon */
-svg#earth {
-    color: black;
-}
-/* change language drop-down */
-prm-main-menu[menu-type=full] prm-change-lang md-select-value {
-    position: relative;
-    top: -3px;
-    font-size: .95em;
-    color: black;
-    background-color: #d3d3d3;
-}
+
 /* suchschlitz */
 .prm-primary-bg, prm-journals-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark::after {
     color: #ffffff; /* hellgrau */
-	/* background-color: #d3d3d3; /* hellgrau */
-  	/* background-color: #f4f6f6; /* sehr hellgrau */
-	background-color: #e0f3f1;
+    background-color: #d3d3d3; /* hellgrau */
 }
 
 /* suchschlitz - durchsuchen button neben suchschlitz, einfache und erweiterte suche buttons von durchsuchen */
@@ -186,17 +158,12 @@ prm-search-bar .search-switch-buttons {
     padding-top: 0em;
 }
 .switch-to-search {
-    color: lightslategray;
+    color: #fffffc;
     min-width: 7rem;
     top: 2.1rem;
     left: 1.8rem;
     height: 2rem;
     /* display: none;*/
-}
-/* mehmet - browse button */
-.zbl-browse-button {
-  top: 3.8em;
-  color: lightslategray;
 }
 .switch-to-browse {
     color: #fffffc;
@@ -206,11 +173,8 @@ prm-search-bar .search-switch-buttons {
 .switch-to-advanced.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple:hover {
     color: #009991; /* jade */
 }
-prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
-    color: lightslategray;
-}
 .switch-to-simple.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple {
-    color: lightslategray;
+    color: white;
 }
 .switch-to-simple.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple:hover {
     color: #009991; /* jade */
@@ -219,7 +183,7 @@ prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-br
 /* suchen, lupe, hintergrund usw. */
 #magnifying-glass_cache36 {
     /* color: #fe4d55; */
-    color: white; 
+    color: white;
     background-color: #00b2aa; /* zhb grün */
 }
 .md-button.button-confirm, .service-form-static-panel button.button-confirm prm-icon+span, .service-form-static-panel button.button-confirm prm-icon svg path {
@@ -230,7 +194,7 @@ prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-br
 .md-button.button-confirm._md-focused:not([disabled]), .md-button.button-confirm.hovered:not([disabled]), .md-button.button-confirm.md-focused:not([disabled]), .md-button.button-confirm:focus:not([disabled]), .md-button.button-confirm:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon+span._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon+span.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon+span.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon+span:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon+span:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]) {
     color: white;
     background-color: rgba(0,0,0,1); /* black */
-   /* background-color: rgba(254,77,85,0.35); /* rot #fe4d55 */ 
+    /* background-color: rgba(254,77,85,0.35); /* rot #fe4d55 */ 
 }
 
 /* tabs and scopes */
@@ -239,23 +203,6 @@ prm-tabs-and-scopes-selector {
 }
 
 /* start page html tooltips in html */
-
-/* start page mobile */
-.flex-60, .layout-row>.flex-60 {
-    -ms-flex: 1 1 60%;
-    flex: 1 1 60%;
-    max-width: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-	padding-right: 14px;
-}
-.flex-40, .layout-row>.flex-40 {
-    -ms-flex: 1 1 40%;
-    flex: 1 1 40%;
-    max-width: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-}
 
 /* autocomplete/suggestion scope */
 .md-autocomplete-suggestions .suggestion-scope, .prm-primary-color, .request-form md-input-container .md-input-container-dummy>.md-select-dummy ._md-select-value._md-select-placeholder, .request-form md-input-container .md-input-container-dummy>.md-select-dummy .md-select-value.md-select-placeholder, .request-form md-input-container label, .request-form md-input-container label:not(.md-no-float):not(._md-container-ignore), .request-form md-input-container md-select ._md-select-value._md-select-placeholder, .request-form md-input-container md-select .md-select-value.md-select-placeholder, .result-item-actions .md-icon-button, .result-item-actions .more-options-button, md-tab-content .tab-content-header md-input-container md-select-value .md-text, md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:not([disabled]), md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-focused:not([disabled]), prm-add-query-to-saved-searches .custom-button {
@@ -268,11 +215,7 @@ prm-tabs-and-scopes-selector {
     border-color: #808080;
     color: white;
     /* keep alert and message bars apart */
-    /* margin-top: 35px; */
-}
-/* mehmet - alert bar */
-.bar.alert-bar.lbs-message-service.layout-align-center-center.layout-row {
-    background-color: #fe4d55; /* light red */   display:none;
+    margin-top: 35px;
 }
 
 /* start page html */
@@ -280,7 +223,6 @@ prm-tabs-and-scopes-selector {
     font-weight: bold;
     font-size: 100%;
     line-height: 1.2em;
-	padding-bottom:7.5px
 }
 
 
@@ -367,31 +309,13 @@ prm-brief-result .item-title span {
 
 /* peer reviewed */
 .peer-reviewed-mark-icon {
-    color: darkgreen !important;
+    color: gray !important;
 }
 .peer-reviewed-mark span {
     font-weight: 500;
     font-size: 0.9em;
     padding-left: 5px;
     color:black;
-}
-/* open access */
-.open-access-mark-icon {
-    color: darkgreen !important;
-}
-.open-access-mark span {
-    font-weight: 500;
-    font-size: 0.9em;
-    color:black;
-}
-
-/* title bookmarked background */
-.list-item-wrapper .item-bookmarked, .list-item-wrapper .item-bookmarked:hover, .prm-highlight, .prm-highlight.prm-hue1, prm-breadcrumbs .md-chip.persistent-facet, prm-breadcrumbs .prm-hue1.md-chip.persistent-facet {
-    background-color: #e0f3f1; /* hellgrün */
-}
-/* title bookmarked unpin icon */
-svg#prm_unpin_cache34 {
-    color: #fe4d55 !important;
 }
 
 /* 99999 ergebnisse */
@@ -498,30 +422,19 @@ a.featured-results-link.button-as-link.zero-margin.md-button.md-primoExplore-the
 
 /* titel, weitere aktionen */
 /*bibtex */
-/* .md-button.md-primary._md-focused:not([disabled]), .md-button.md-primary.hovered:not([disabled]), .md-button.md-primary.md-focused:not([disabled]), .md-button.md-primary:focus:not([disabled]), .md-button.md-primary:hover:not([disabled]) {
-    color: #009991; 
-    background-color: #e0f3f1; 
-} */
-
-.md-button._md-focused:not([disabled]), .md-button.hovered:not([disabled]), .md-button.md-focused:not([disabled]), .md-button:focus:not([disabled]), .md-button:hover:not([disabled]) {
+.md-button.md-primary._md-focused:not([disabled]), .md-button.md-primary.hovered:not([disabled]), .md-button.md-primary.md-focused:not([disabled]), .md-button.md-primary:focus:not([disabled]), .md-button.md-primary:hover:not([disabled]) {
     color: #009991; /* jade */
-    background-color: white; 
+    background-color: rgba(92,146,189,.1); /* hellblau */
 }
 /*alle andere */
 .md-button._md-focused:not([disabled]), .md-button.hovered:not([disabled]), .md-button.md-focused:not([disabled]), .md-button:focus:not([disabled]), .md-button:hover:not([disabled]) {
-    color: #009991; /* jade */
-    background-color: white;
+    color: #009991;
+    background-color: rgba(92,146,189,.1); /* hellblau */
 }
-
 
 
 /* --- details --- */
 /* --------------- */
-
-/* background */
-.full-view-inner-container.flex {
-    background-color: white;
-}
 
 /* menu reihenfolge */
 .full-view-inner-container {
@@ -529,38 +442,38 @@ a.featured-results-link.button-as-link.zero-margin.md-button.md-primoExplore-the
     display: flex;
     flex-direction: column;
 }
-[aria-label="Online"] { order: 0 !important; } 
 [aria-label="View it"] { order: 0 !important; } /* view it/online anzeigen */
-[aria-label="Physisch in Bibliotheken"] { order: 1 !important; }
+[aria-label="Online"] { order: 0 !important; } 
 [aria-label="Get it"] { order: 1 !important; }
-[aria-label="Weitere Links"] { order: 2 !important; }
-[aria-label="Links"] { order: 2 !important; }
-[aria-label="Virtuelles Regal"] { order: 3 !important; } 
+[aria-label="Details"] { order: 2 !important; }
 [aria-label="Virtual Browse"] { order: 3 !important; } /* virtual browse/virtuelles regal */
-[aria-label="Zitate"] { order: 4 !important; } /* */
+[aria-label="Virtuelles Regal"] { order: 3 !important; } 
 [aria-label="Citations"] { order: 4 !important; } /* */
-[aria-label="Send to"] { order: 5 !important; } /* send to/senden an */
-[aria-label="Senden an"] { order: 5 !important; } 
-[aria-label="Details"] { order: 6 !important; }
-[aria-label="Tags"] { order: 7 !important; }
-/* .accessible-explore { order: 10; } /* syndetics unbound */
+[aria-label="Zitate"] { order: 4 !important; } /* */
+[aria-label="Weitere Links"] { order: 5 !important; }
+[aria-label="Tags"] { order: 6 !important; }
+[aria-label="Send to"] { order: 7 !important; } /* send to/senden an */
+[aria-label="Senden an"] { order: 7 !important; } 
+/* altmetrics 8 */
+/* bibtip 9 */
+.accessible-explore { order: 10; } /* syndetics unbound */
 
 [aria-label="Nach oben"] { order: 11 !important; padding-top: 150px; }
 /* weitere services verstecken */
 [aria-label="Weitere Services"] { display: none !important; } /* /weitere services */
 
 /* abschnitt reihenfolge */
-#getit_link1_0 { order: 0; } /* online */
-#getit_link2_0 { order: 1; } /* physisch */
-#links { order: 2; }
+#getit_link1_0 { order: 0; } /* online anzeigen */
+#getit_link2_0 { order: 1; } /* weitere services */
+#details { order: 2; }
 #virtualBrowse { order: 3; }
 #citationTrails { order: 4; }
-#action_list { order: 5; } /* senden an */
-#details { order: 6; }
-#tags { order: 7; }
-/* .syndetic-unbound-section { order: 10;} /* syndetics unbound */
-
-
+#links { order: 5; }
+#tags { order: 6; }
+#action_list { order: 7; } /* senden an */
+/* altmetrics 8 */
+.full-view-section #bibtip_reclist_container { order: 9; } /* bibtip */
+.syndetic-unbound-section { order: 10;} /* syndetics unbound */
 
 /* weitere services verstecken */
 #getit_link2 {
@@ -575,10 +488,6 @@ a.featured-results-link.button-as-link.zero-margin.md-button.md-primoExplore-the
 /* menu links left */
 .md-button.button-link, .tiles-grid-tile .tile-content > .md-button, md-grid-tile .tile-content > .md-button {
     color: #009991;
-}
-/* menu hover */
-.zero-margin.button-right-align.button-link.md-button.md-primoExplore-theme.md-ink-ripple:hover {
-    background-color: #e0f3f1;
 }
 
 /* display long menu options on 2 lines */  
@@ -602,7 +511,7 @@ prm-full-view .services-index-under .md-button {
 
 /* bibtip column right */
 .bibtip_bx_style_container {
-    background: #f3f3f3 !important;
+    background: white !important;
     padding-left: 10px !important;
 } 
 .bibtip_bx_style_header_text {
@@ -637,59 +546,35 @@ prm-full-view .services-index-under .md-button {
     padding-top: 25px !important;
 }
 
-
 /* online section */
-/* mehmet */
-.sfx-links {}
-/* mehmet - campusnetz heading */
-.sfx-links-facility {
-    padding-top: 0.75em !important;
-    margin-left: 0px !important;
-    font-weight: bold;
+/* access link */
+.prm-notice.idslu-access {
+    background-color: #f3f3f3;
+    padding-top: 25px;
 }
-.sfx-links-target {
-  margin-left: 25px !important;
-}
-/* mehmet - all extra links */
-.sfx-links-on-campus {
-    padding-top: 0.75em !important;
-    margin-left: 0px !important;
-    font-weight: normal;
-}
-.sfx-links-on-campus-url {
-  font-weight: normal !important;
-}
-/* mehmet ehelp link */
-.prm-notice.idslu-ehelp {
-    padding-top: 1.5em;
-	font-weight: normal;
-}
-/* mehmet feedback link */
+/* feedback link */
 .prm-notice.idslu-feedback {
-    /* background-color: #f3f3f3;
-    padding-top: 0.75em !important;
-    font-weight: normal; */
-	display: none;
+    background-color: #f3f3f3;
+    padding-top: 0px;
 }
 
 /* library/location section */
 md-content.overflow-hidden._md.md-primoExplore-theme {
-    background-color: white !important;
+    background-color: #f3f3f3 !important;
 }
 md-list-item {
     background-color: #f3f3f3 !important;
 }
-/* mehmet - closures link */
-.prm-notice.idslu-closures {
-    background-color: white;
-    margin-top: 0.2em;
-}
-/* mehmet - libraries link */
+/* libraries link */"
 .prm-notice.idslu-libraries {
-    background-color: white;
-    margin-top: 0.75em;
+    background-color: #f3f3f3;
+    padding-top: 25px;
 }
-
+/* feedback link */
+.prm-notice.idslu-closures {
+    background-color: #f3f3f3;
+    padding-top: 0px;
+}
 /* highlight location */
 .md-button._md-focused:not([disabled]), .md-button.hovered:not([disabled]), .md-button.md-focused:not([disabled]), .md-button:focus:not([disabled]), .md-button:hover:not([disabled]) {
     color: #009991;
@@ -708,12 +593,6 @@ button.button-as-link.md-button.md-primoExplore-theme.md-ink-ripple{
     display: none;
 }
 
-/* actions section */
-/* bibtex */
-.md-button.md-primary._md-focused:not([disabled]), .md-button.md-primary.hovered:not([disabled]), .md-button.md-primary.md-focused:not([disabled]), .md-button.md-primary:focus:not([disabled]), .md-button.md-primary:hover:not([disabled]) {
-    color: #09991 !important; /* jade */
-    background-color: white;
-}
 
 /* --- miscellaneous --- */
 /* --------------------- */
@@ -755,18 +634,4 @@ min-height: 25px;
     background-color: #fe4d55; /* light red */
     border-color: #fe4d55;
     margin-top: 20px;
-    display:none;
-}
-
-/* mehmet */
-prm-view-online > div:nth-child(1) > a[href*=sfx] {
-  display:none;
-}
-
-zbl-lib-info > a > img {
-  width: 20px;
-}
-
-zbl-vscout > a > img {
-  width: 25px;
 }

@@ -1,30 +1,119 @@
+﻿<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    font-family: 'Roboto', sans-serif !important;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	visibility: hidden;
+    width: 250px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -125px; /* Use half of the width (120/2 = 60), to center the tooltip */    
+	background-color: #505050;
+    color: #fff;
+    text-align: left;
+    padding: 2px 2px 2px 15px;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext { 
+    visibility: visible; 
+} 
+
+</style>
+
+<style>
+md-card {
+	background-color: #f4f6f6 !important;
+}
+md-card>:not(md-card-content) img, md-card>img {
+    width: 48px !important;
+    height: 48px !important;
+	margin-top: -10px;
+    margin-right: 5px;
+}
+md-card-content {
+	line-height: 1.2em;
+}
+
+</style>
 
 <md-content layout-xs="column" layout="row">
     <div flex="60" layout="column">
-        <md-card class="default-card">
+		<img src="custom/41ZBL/img/startseite_books.png" style="margin-left: 7px; margin-right: 7px; margin-top: 7px;">
+		<md-card class="default-card" style="margin-left: 25px; margin-right: 25px; margin-top: -125px; position: relative;">
             <md-card-title>
                 <md-card-title-text>
-                    <span class="md-headline">Über iluplus</span>
+                    <span class="md-headline">As simple as possible –</span>
+                </md-card-title-text>
+            </md-card-title>
+<!--        </md-card>
+		
+        <md-card class="default-card"> -->
+            <!-- <md-card-title style="margin-top: -25px !important"> 
+                <md-card-title-text>
+                    <span class="md-headline">Unkomplizierter Zugang zu enormen Informationsressourcen</span>
                 </md-card-title-text>
             </md-card-title>
             <md-card-content>
                 <p>
-                    iluplus ist das Suchportal des IDS Luzern. Sie finden darin Ressourcen der Bibliotheken in Luzern und der Zentralschweiz, Bücher, e-books, elektronische und gedruckte Zeitschriften, Aufsätze, und alles mögliche, blablabla
+                    Heutigen Bibliotheksnutzern/innen stehen so vielfältige und umfangreiche Informationsressourcen zur Verfügung wie nie zuvor. Für eine unkomplizierte und effiziente Recherche bieten Ihnen die Bibliotheken im Informationsverbund Luzern das Suchinstrument iluplus.
+                </p>
+            </md-card-content> -->
+            <md-card-title style="margin-top: -25px !important">
+                <md-card-title-text>
+                    <span class="md-headline">From the very first click, iluplus.ch - the search portal of IDS Luzern - offers you simple access to enormous information resources, like...</span>
+                </md-card-title-text>
+            </md-card-title> 
+            <md-card-content> 
+				
+                <p>
+					<!-- Sie finden auf einen Klick:<br /> -->
+                    printed books, AV media, manuscripts, printed and electronic journals and newspapers, and many other online publications, like e-books from DiBiZentral and Overdrive, and electronic fulltexts from Springer; JSTOR, SAGE, and Cambridge and Oxford University Presses. And also audio and video from various licensed and open sources..
+                </p>
+            </md-card-content>
+		</md-card>
+
+<!-- standard
+		<md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Hello world!</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <p>
+                    iluplus bietet alles, was die Zentralschweiz zu bieten hat.
                 </p>
                 <p>
-                    iluplus hilft auch bei allen anderen Fragen:
+                    Primo also helps you manage your research. Sign-in in order to:
                 </p>
                 <ul>
-                    <li>Bestelle und verlängere Bücher</li>
-                    <li>Erhalte Zugriff zu E-Books und Artikeln</li>
+                    <li>Renew books and videos</li>
+                    <li>Create favoriets lists</li>
                     <li>Export citations to Refworks and Endnote Web</li>
+                    <li>View full search results. (Some databases, only show results when you're signed in.)</li>
                 </ul>
             </md-card-content>
         </md-card>
+
         <md-card class="default-card">
             <md-card-title>
                 <md-card-title-text>
-                    <span class="md-headline">blabla</span>
+                    <span class="md-headline">Questions? Comments?</span>
                 </md-card-title-text>
             </md-card-title>
             <md-card-content>
@@ -36,20 +125,168 @@
                 </a>
             </md-card-content>
         </md-card>
-    </div>
+-->		
+    
+	</div>
+	
     <div flex-xs flex="40" layout="column">
-        <md-card class="default-card">
+			<md-card class="default-card">
+<!-- tags 
+			<md-card class="default-card">
+            <md-card-title><img src="custom/41ZBL/img/pound-box.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="https://primo-direct-eu-sb.hosted.exlibrisgroup.com/primo-explore/"><span class="md-headline">Tags</span></a></a><span class="tooltiptext">Neueste und beliebteste Tags, und nach Tags suchen</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title>
+            <!-- <md-card-content>
+                <p>
+                    Lorem ipsum dolor sit amet, vim nonumes intellegat eu ...
+                </p>
+
+            </md-card-content> -->
+<!-- hilfe / help 
+			<md-card class="default-card">
+            <md-card-title><img src="custom/41ZBL/img/help-box.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="http://ilu.zhbluzern.ch/local/primo_help/primo_hilfe.htm" target="_blank"><span class="md-headline">Hilfe / Help</span></a></a><span class="tooltiptext">Hilfe, Tipps und Tricks auf Deutsch / Help, tips and tricks in English</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title>
+            <!-- <md-card-content>
+                <p>
+                    Lorem ipsum dolor sit amet, vim nonumes intellegat eu ...
+                </p>
+
+            </md-card-content> -->
+<!-- kontakt 
+            <md-card-title><img src="custom/41ZBL/img/email.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="http://www.zhbluzern.ch/ueber-uns/kontakt/#WzkzNiwxNDQ4XQ==/" target="_blank"><span class="md-headline">Kontakt</span></a><span class="tooltiptext">Eine Mitteilung an uns schicken - allgemeine Anfragen, Anregungen, Kritik usw.</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title>
+            <!-- <md-card-content>
+                <p>
+                    Lorem ipsum dolor sit amet, vim nonumes intellegat eu ...
+                </p>
+
+            </md-card-content> -->
+<!-- blog 
+            <md-card-title><img src="custom/41ZBL/img/blogger.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="http://iluplus.blogspot.ch/" target="_blank"><span class="md-headline">Blog</span></a></a><span class="tooltiptext">Neuigkeiten in iluplus.ch erfahren</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title>
+            <!-- <md-card-content>
+                <p>
+                    Lorem ipsum dolor sit amet, vim nonumes intellegat eu ...
+                </p>
+
+            </md-card-content> -->
+<!-- probleme -->
+            <!-- <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Weitere Links...</span>
+                </md-card-title-text>
+            </md-card-title> -->
+            <!--<md-card-content style="margin-top: 24px;">
+				 <p>
+					<a href="http://www.idsluzern.ch/bibliotheken/" target="_blank"> > Bibliotheken in IDS Luzern</a>
+				</p> 
+                <p>
+					<a href="http://www.zhbluzern.ch/recherche/e-medien/#WzI4OTld/" target="_blank"> > Fragen zu E-Medien</a>
+                </p> 
+			</md-card-content> -->
+<!--            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Not in the campusnet?</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+				<p>External access to licensed e-media for...</p>
+				<p>
+					<a href="https://ezproxy.unilu.ch/menu" target="_blank"> > ZHB/Uni/PH staff and students via EZproxy</a>
+				</p>
+				<p>
+					<a href="https://www.hslu.ch/de-ch/helpdesk/anleitungen/netzwerk/#vpn1" target="_blank"> > HSLU staff and students via VPN</a>
+				</p>-->
+
+
             <md-card-title>
                 <md-card-title-text>
-                    <span class="md-headline">Hilfe</span>
+                    <span class="md-headline">Not in the campusnet?</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+				<p>
+					<a href="http://www.zhbluzern.ch/index.php?id=3992" target="_blank">External access to licensed e-media for staff and students</a>
+				</p>
+
+
+			</md-card-content>
+<!-- bibliotheken -->
+            <!-- <md-card-title>
+                <md-card-title-text>
+                    <a href="http://www.idsluzern.ch/bibliotheken/" target="_blank"><span class="md-headline">Bibliotheken</span></a>
                 </md-card-title-text>
             </md-card-title>
             <md-card-content>
                 <p>
-                    <a href="#">hier wird Ihnen geholfen</a>drop by, drop in
+                    Lorem ipsum dolor sit amet, vim nonumes intellegat eu ...
                 </p>
 
             </md-card-content>
-        </md-card>
-    </div>
+        </md-card> -->
+		
+<!-- standard
+		<md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Where can I get help?</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <p>
+                    <a href="#">Ask a librarian</a> how to start your search
+                </p>
+
+            </md-card-content>
+        </md-card> 
+		-->
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Additional functions</span>
+                </md-card-title-text>
+            </md-card-title>
+<!-- tags -->          
+			<md-card-title><img src="custom/41ZBL/img/pound-box.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="https://iluplus.hosted.exlibrisgroup.com/primo-explore/tags?vid=41ZBL"><span class="md-headline">Tags</span></a></a><span class="tooltiptext">The newest and most popular tags, and search by tag</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title>
+<!-- durchsuchen -->
+			<!-- <md-card-title><img src="custom/41ZBL/img/view-list.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="https://primo-direct-eu-sb.hosted.exlibrisgroup.com/primo-explore/browse?vid=41ZBL"><span class="md-headline">Durchsuchen</span></a></a><span class="tooltiptext">In einer Liste Durchsuchen - Autor, Titel, Thema oder Signatur</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title> --> 
+<!-- help -->
+			<md-card-title><img src="custom/41ZBL/img/help-box.png">
+                <md-card-title-text>
+                    <div class="tooltip"><a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/050New_Primo_User_Interface/End_User_Help" target="_blank"><span class="md-headline">Help</span></a></a><span class="tooltiptext">Tips and tricks in English</span>
+					</div>
+                </md-card-title-text>
+            </md-card-title> 
+          </md-card-content>
+        </md-card> 
+		
+	</div>
+
 </md-content>
+
+
+

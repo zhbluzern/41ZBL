@@ -1,0 +1,23 @@
+<div class="sfx-links" ng-repeat="(targetFacility, normalizedTargets) in $ctrl.targets">
+  <p class="fulltext-item sfx-links-facility">
+      <span translate="nui.customizing.idslu.sfxlinks.campusnet"></span> {{targetFacility}}
+  </p>
+  <div ng-repeat="target in normalizedTargets">
+    <p class="fulltext-item sfx-links-target">
+      <span translate="nui.customizing.idslu.sfxlinks.fulltext_through"></span>
+      <a href="{{target.target_url}}" target="_blank">{{target.target_name}}</a>
+    </p>
+  </div>
+</div>
+
+<p class="fulltext-item sfx-links-on-campus">
+  <span translate="nui.customizing.idslu.sfxlinks.on_campus"></span>
+  <span class="sfx-links-on-campus-url">
+        <a href="http://www.zhbluzern.ch{{$ctrl.proxySuffix}}/index.php?id=3992" target="_blank">
+        <span translate="nui.customizing.idslu.sfxlinks.external_campus_access"></span>
+  </a>
+  </span>
+
+  <zbl-link class="idslu-ehelp" url="{{('nui.customizing.idslu.ehelpurl' | translate)}}" text="{{('nui.customizing.idslu.ehelptext' | translate)}}"></zbl-link>
+  <zbl-link class="idslu-feedback" url="{{('nui.customizing.idslu.feedbackurl' | translate)}}" text="{{('nui.customizing.idslu.feedbacktext' | translate)}}"></zbl-link>
+</p>
