@@ -1,0 +1,25 @@
+.sfx-links {}
+.sfx-links-facility {
+  padding-top: 15px !important;
+  margin-left: 25px !important;
+  font-weight: bold;
+}
+
+.sfx-links-target {
+  margin-left: 25px !important;
+}
+
+.sfx-links-on-campus {
+  padding-top: 15px !important;
+  margin-left: 25px !important;
+  font-weight: bold;
+}
+
+.sfx-links-on-campus-url {
+  font-weight: normal !important;
+}
+
+
+prm-view-online > div:nth-child(1) > a[href*=sfx] {
+  display:none;
+}

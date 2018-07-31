@@ -1,3 +1,15 @@
-# 41ZBL - Custom view für new Primo User Interface of iluplus.ch
+# ZHB packages for Primo NUI
 
-This repository contains the source code for the new user interface of [iluplus.ch](http://www.iluplus.ch), the resource discovery tool of the network IDS Luzern, maintained by [Zentral- und Hochschulbibliothek Luzern](http://www.zhbluzern.ch). It contains the custom files (html, css, js, images) to create view packages in the ["Primo New UI Customization Workflow Development Environment"](https://github.com/ExLibrisGroup/primo-explore-devenv) by Exlibris. For installation, development and deployment, see their readme.
+## build
+### customView
+```bash
+gulp run --view 41ZBL --browserify --proxy https://iluplus.hosted.exlibrisgroup.com
+```
+
+## Important
+This project depends on [primo-explore-dom](https://github.com/mehmetc/primo-explore-dom).
+
+* How to download [primo-explore-dom](https://github.com/mehmetc/primo-explore-dom)
+```bash
+$ git submodule update --init
+```
